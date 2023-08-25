@@ -1,0 +1,11 @@
+2023-08-25 11:25:38,864.basic_expressions.INFO ==================================================
+2023-08-25 11:25:38,865.basic_expressions.INFO Today is 2023-08-25 at 11:25 AM
+2023-08-25 11:25:38,892.basic_expressions.INFO Running on: nt Windows 10
+2023-08-25 11:25:38,892.basic_expressions.INFO Python version:  3.11.5
+2023-08-25 11:25:38,893.basic_expressions.INFO Python path: C:\Program Files\Python311
+2023-08-25 11:25:38,893.basic_expressions.INFO Working dir: C:\Users\MR011023\Documents\datafun-01-getting-started-1
+2023-08-25 11:25:38,894.basic_expressions.INFO ==================================================
+2023-08-25 11:25:38,894.basic_expressions.INFO Given base=10 and height=5, triangle area = 25.0
+2023-08-25 11:25:38,894.basic_expressions.INFO Given length=8 and width=4, rectangle area = 32
+2023-08-25 11:25:38,895.basic_expressions.INFO Given float_num1=1.1 and float_num2=2.2, sum = 3.3000000000000003
+2023-08-25 11:25:38,895.basic_expressions.INFO Given num1=50 and num2=20, the difference = 30

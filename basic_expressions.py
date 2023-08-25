@@ -47,15 +47,21 @@ num2 = 20
 float_num1 = 1.1
 float_num2 = 2.2
 float_num3 = 3.3
+rectangle_length = 8
+rectangle_width = 4
 
 # Basic Arithmetic Operations
 triangle_area = triangle_base * triangle_height / 2
+rectangle_area = rectangle_length * rectangle_width
 total_sum = float_num1 + float_num2
 difference = num1 - num2
 
 # Log Information
 logger.info(
     f"Given base={triangle_base} and height={triangle_height}, triangle area = {triangle_area}"
+)
+logger.info(
+    f"Given length={rectangle_length} and width={rectangle_width}, rectangle area = {rectangle_area}"
 )
 logger.info(
     f"Given float_num1={float_num1} and float_num2={float_num2}, sum = {total_sum}"
