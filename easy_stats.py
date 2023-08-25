@@ -106,10 +106,10 @@ lowest = min(uni_data)
 highest = max(uni_data)
 
 # TODO: change to f-strings and display 2 decimal places (like we did above)
-logger.info("var    = " + str(var))
-logger.info("stdev  = " + str(stdev))
-logger.info("lowest = " + str(lowest))
-logger.info("highest= " + str(highest))
+logger.info(f"var    = {var:.2f}")
+logger.info(f"stdev  = {stdev:.2f}")
+logger.info(f"lowest = {lowest:.2f}")
+logger.info(f"highest= {highest:.2f}")
 
 
 # Descriptive: Univariant Time Series Data.........................
@@ -129,8 +129,8 @@ if len(xtimes) != len(yvalues):
     quit()
 
 # check the Python version before using the correlation function
-logger.warn("Correlation requires Python version 3.10 or greater.")
-logger.warn(f"Your version is {sys.version_info.major}.{sys.version_info.minor}")
+logger.warning("Correlation requires Python version 3.10 or greater.")
+logger.warning(f"Your version is {sys.version_info.major}.{sys.version_info.minor}")
 
 # if the Python version is too old, we can quit now
 if sys.version_info.minor < 10:
